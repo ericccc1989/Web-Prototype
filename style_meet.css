@@ -1,0 +1,545 @@
+@media only screen and (min-width: 980px){ /* This important code help me distinguish mobile and desktop version based on the screen width*/
+
+header{
+  top:0px;
+  left:0px;
+  position: fixed;
+  width: 100%;
+  height: 175px;
+  z-index:5;
+}
+.HeaderBackground{
+  object-fit: cover;
+  object-position: 50% 55%; 
+  width: 100%;
+  height: 175px;
+  z-index:5;
+}
+.weblogo{
+  position: absolute;
+  width:80px;
+  left:60px;
+  bottom:50%;
+}
+.weblogotext{
+  text-align: center;
+  font-family: Marker Felt;
+  color:#FDFDFD;
+  font-size:35px;
+  transform: translate(0, 70%);
+}
+.slogan{
+  position: absolute;
+  width:500px;
+  left:180px;
+  bottom:50%;
+}
+.slogantext{
+  text-align: center;
+  font-family: Avenir;
+  color:#FDFDFD;
+  font-size:13px;
+  transform: translate(0,35px);
+}
+
+.header1{
+ position: absolute;
+ width:300px;
+ height:30px;
+ top:0;
+ right:0;
+ background:#EFE2CD;
+ z-index:6; 
+}
+.triangle{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 0;
+	height: 0;
+	border-top: 0px solid transparent;
+	border-right: 50px solid #EFE2CD;
+	border-bottom: 30px solid transparent;
+  transform: translateX(-50px);
+}
+.header2{
+ position: absolute;
+ width:100%;
+ height:30px;
+ bottom:0;
+ background:#EFE2CD;
+ z-index:6; 
+}
+.headerelement1{
+  display: block;
+  float: left;
+  width: 18%;
+  text-align: center;
+  font-size: 15px;
+  transform: translateY(-12%);
+}
+.logo{
+  display: block;
+  float: left;
+  width: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(0, 20%);
+}
+.menulogo{
+  display:none;
+}
+.donatenow{
+  width: 70px;
+  height: 25px;
+  left: 70%;
+  background:#A0917C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(20%, 23%);
+}
+.donatetext{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #FDFCF8;
+}
+.headerelement2{
+  display: block;
+  float: left;
+  height:30px;
+  width: 20%;
+  text-align: center;
+  font-size: 15px;
+  
+}
+.headertext{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #716D62;
+  transform: translateY(-50%);
+}
+.menulogo2{
+  display:none;
+}
+
+footer{
+  display: flex;
+  position: absolute;
+  width:100%;
+  height:150px;
+  background:#EFE2CD;
+  bottom:0px;
+}
+.weblogotext2{
+  text-align: center;
+  font-family: Marker Felt;
+  color:#707070;
+  font-size:35px;
+  transform: translate(0, 65%);
+}
+.footerbox{
+  display: block;
+  float: left;
+  width: 20%;
+  text-align: center;
+  font-size: 15px;
+
+}
+.footertext{
+  text-align:center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:15px;
+  color:#707070;
+  transform: translate(0,10px);
+  width:80%;
+}
+.copyrighttext{
+  text-align:start;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:13px;
+  color:#707070;
+  transform: translate(0,10px);
+  width:80%;
+}
+.socialbox{
+  display: block;
+  float: left;
+  width: 20%;
+  text-align: center;
+  font-size: 15px;
+}
+.logo2{
+  width: 25px;
+  transform: translate(70px,20px);
+}
+.mobilefooter{
+  display:none;
+}
+.mobilecontact{
+  display:none;
+}
+.weblogo > a:link, a:visited{
+  text-decoration: none;
+}
+.headertext  > a:link, a:visited{
+  text-decoration: none;
+  color: rgb(141, 89, 89);
+  
+}
+.headerelement2:hover {
+  background-color:#E6D9C3;
+  border-style:none;
+}
+.dropdown{
+  display:none;
+}
+.container_meet{
+  position: relative;
+  width:100%;
+  height:2000px;
+  transform: translate(0,230px);
+  z-index:1;
+}
+.textbox_meet{
+  position: absolute;
+  width:85%;
+  height:auto;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;  
+  top:0;
+  margin-top: 450px;
+  background:white;
+  z-index:3;
+}
+.kangaroo3{
+  position: absolute;
+  width:70%;
+  left: 0;
+  right: 0;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:0;
+}
+.heading_meet{
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#707070;
+  font-size:23px;
+}
+.paragraph_meet{
+  text-align: start;
+  font-family: Helvetica Neue;
+  color:#707070;
+  font-size:15px;
+}
+.line3{
+  width:100%;
+  color:#707070;
+  border: 1px solid black;
+}
+.animal{
+  width:100%;
+  height:500px;
+}
+.sponsor{
+  display: block;
+  float: left;
+  width: 25%;
+  height:500px;
+}
+.sponsorimg{
+  object-fit: cover;
+  width:80%;
+  height:250px;
+  left: 0;
+  right: 0;
+  margin-left:auto;
+  margin-right:auto;
+}
+.sponsortext{
+  width:80%;
+  text-align:start;
+  font-size:13px; 
+  font-family:Helvetica Neue;
+  color:#707070;
+}
+}
+@media only screen and (max-width: 980px){
+header{
+  top:0px;
+  left:0px;
+  position: fixed;
+  width: 100%;
+  height: 200px;
+  z-index:5;
+}
+.HeaderBackground{
+  object-fit: cover;
+  object-position: 50% 55%; 
+  width: 100%;
+  height: 150px;
+  z-index:5;
+}
+.weblogo{
+  position: absolute;
+  width:80px;
+  left:30px;
+  bottom:50%;
+}
+.weblogo > a:link, a:visited{
+  text-decoration: none;
+}
+.weblogotext{
+  text-align: center;
+  font-family: Marker Felt;
+  color:#FDFDFD;
+  font-size:30px;
+  transform: translate(0, 55%);
+}
+.slogan{
+  display: none;
+}
+.header1{
+ position: absolute;
+ width:35%;
+ height:30px;
+ top:0;
+ right:0;
+ z-index:6; 
+}
+.triangle{
+  display:none;
+}
+.header2{
+ display:none;
+}
+.headerelement1{
+  display: block;
+  float: left;
+  width: 25%;
+  text-align: center;
+  font-size: 15px;
+  transform: translateY(20%);
+}
+.logo{
+  display: block;
+  float: left;
+  width: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(0, 20%);
+}
+.menudropdown{
+  display: block;
+  float: left;
+  width: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(0, 15%);
+}
+.dropdown{
+  display: inline-block;
+}
+.dropmenu{
+  background:#E6D9C3;
+  height:50px;
+  width:150px;
+  transform: translate(-50%,-60%);
+}
+.dropmenutext{
+  text-align: start;
+  color:#707070;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:15px;
+  font-weight: bold;
+  transform: translate(0,15px);
+}
+.dropmenuabout{
+  text-align: start;
+  color:#707070;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:15px;
+  font-weight: bold;
+  transform: translate(-20px,15px);
+}
+.dropdown{
+  width:40px;
+  height:40px;
+  transform:translate(-5px);
+}
+.dropdowncontent > a:link, a:visited{
+  text-decoration: none;
+  color: rgb(141, 89, 89);
+  
+}
+.dropdowncontent > a:hover {
+  background-color:#E6D9C3;
+  border-style:none;
+}
+.dropdowncontent{
+  display: none;
+}
+.dropdown:hover .dropdowncontent {
+  display: block;
+}
+.donatenow{
+  display:none;
+}
+.donatetext{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+.headerelement2{
+  display: none;
+}
+.headertext{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #716D62;
+}
+footer{
+  display: none;
+}
+.donatenow2{
+  width: 70px;
+  height: 25px;
+  margin-left:auto;
+  margin-right:auto;
+  background:#EFE2CD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:80px;
+}
+.donatetext2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #707070;
+}
+.charitylogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top:80px;
+}
+.mobilecontact{
+  position: absolute;
+  bottom:200px;
+}
+.mobilefooter{
+  display: flex;
+  position: absolute;
+  width:100%;
+  height:150px;
+  background:#EFE2CD;
+  bottom:0px;
+}
+.footertext2{
+  text-align:start;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:15px;
+  color:#707070;
+  margin-left:8%;
+  width:80%;
+}
+.footerbox2{
+  display: block;
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.weblogotext2{
+  text-align: center;
+  font-family: Marker Felt;
+  color:#707070;
+  font-size:35px;
+  transform: translate(0,10%);
+}
+.copyrighttext{
+  text-align:start;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:13px;
+  color:#707070;
+  transform: translate(10%,-8%);
+  width:80%;
+}
+.container_meet{
+  position: relative;
+  width:100%;
+  height:3500px;
+  transform: translate(0,230px);
+  z-index:1;
+}
+.textbox_meet{
+  position: absolute;
+  width:90%;
+  height:auto;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;  
+  top:0;
+  margin-top: 220px;
+  z-index:3;
+  background:white;
+}
+.kangaroo3{
+  position: absolute;
+  width:100%;
+  left: 0;
+  right: 0;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:0;
+}
+.heading_meet{
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#707070;
+  font-size:23px;
+}
+.paragraph_meet{
+  text-align: start;
+  font-family: Helvetica Neue;
+  color:#707070;
+  font-size:15px;
+}
+.line3{
+  width:100%;
+  color:#707070;
+  border: 1px solid black;
+}
+.animal{
+  width:100%;
+  height:500px;
+}
+.sponsor{
+  display: block;
+  float: left;
+  width: 50%;
+  height:800px;
+}
+.sponsorimg{
+  object-fit: cover;
+  width:80%;
+  height:250px;
+  left: 0;
+  right: 0;
+  margin-left:auto;
+  margin-right:auto;
+}
+.sponsortext{
+  width:80%;
+  text-align:start;
+  font-size:13px; 
+  font-family:Helvetica Neue;
+  color:#707070;
+}
+}
